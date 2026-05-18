@@ -208,7 +208,7 @@ def train_supervised_embedding_model(cat_idx_array: np.ndarray,
                                      hidden_dim: int = 256,
                                      use_mlp: bool = True,
                                      mlp_ratio: float = 1.5,
-                                     noise_std: float = 0.01,
+                                     noise_std: float = 0.00,
                                      patience: int = 30) -> SupervisedLearnableEmbeddingModel:
     """
     Latih SupervisedLearnableEmbeddingModel menggunakan supervised learning.
