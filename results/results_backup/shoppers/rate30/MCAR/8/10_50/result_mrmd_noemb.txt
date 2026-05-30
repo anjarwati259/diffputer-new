@@ -1,0 +1,36 @@
+iteration 0, MAE: in-sample=0.902497, out-of-sample=0.894671
+iteration 0, RMSE: in-sample=1.131234, out-of-sample=1.078058
+iteration 0, ACC: in-sample=0.5418960244648318, out-of-sample=0.552088772845953
+iteration 0, Training time=664.0878s, In-sample imputation=460.9658s, Out-of-sample imputation=214.2727s
+iteration 0, MRmD discretization=0.0000s, TOTAL pipeline=1339.3264s
+
+iteration 1, MAE: in-sample=0.882506, out-of-sample=0.875856
+iteration 1, RMSE: in-sample=1.107882, out-of-sample=1.055906
+iteration 1, ACC: in-sample=0.575201556852933, out-of-sample=0.5866840731070496
+iteration 1, Training time=566.3626s, In-sample imputation=455.4406s, Out-of-sample imputation=207.8713s
+iteration 1, MRmD discretization=0.0000s, TOTAL pipeline=1229.6744s
+
+iteration 2, MAE: in-sample=0.875700, out-of-sample=0.871339
+iteration 2, RMSE: in-sample=1.098054, out-of-sample=1.049013
+iteration 2, ACC: in-sample=0.58387545176536, out-of-sample=0.5930809399477807
+iteration 2, Training time=543.8474s, In-sample imputation=454.9207s, Out-of-sample imputation=209.3703s
+iteration 2, MRmD discretization=0.0000s, TOTAL pipeline=1208.1384s
+
+iteration 3, MAE: in-sample=0.876816, out-of-sample=0.872228
+iteration 3, RMSE: in-sample=1.102817, out-of-sample=1.054220
+iteration 3, ACC: in-sample=0.5425632471504032, out-of-sample=0.5613577023498695
+iteration 3, Training time=654.3777s, In-sample imputation=450.2945s, Out-of-sample imputation=209.9934s
+iteration 3, MRmD discretization=0.0000s, TOTAL pipeline=1314.6656s
+
+iteration 4, MAE: in-sample=0.874185, out-of-sample=0.870243
+iteration 4, RMSE: in-sample=1.095129, out-of-sample=1.047794
+iteration 4, ACC: in-sample=0.578648874061718, out-of-sample=0.5853785900783289
+iteration 4, Training time=639.6558s, In-sample imputation=454.9970s, Out-of-sample imputation=210.2594s
+iteration 4, MRmD discretization=0.0000s, TOTAL pipeline=1304.9123s
+
+iteration 5, MAE: in-sample=0.874819, out-of-sample=0.870965
+iteration 5, RMSE: in-sample=1.096201, out-of-sample=1.049463
+iteration 5, ACC: in-sample=0.5596886294134, out-of-sample=0.5661879895561358
+iteration 5, Training time=591.6751s, In-sample imputation=455.1893s, Out-of-sample imputation=206.3541s
+iteration 5, MRmD discretization=0.0000s, TOTAL pipeline=1253.2184s
+
