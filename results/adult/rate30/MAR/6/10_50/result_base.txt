@@ -1,0 +1,30 @@
+iteration 0, MAE: in-sample: 0.5300312042236328, out-of-sample: 0.4331676959991455 
+iteration 0: RMSE: in-sample: 0.9720637798309326, out-of-sample: 1.0946787595748901 
+iteration 0: ACC: in-sample: 0.5726399481326031, out-of-sample: 0.6673253833049404 
+iteration 0: Training time: 1121.69s, In-sample imputation time: 1153.20s, Out-of-sample imputation time: 510.76s 
+
+iteration 1, MAE: in-sample: 0.5197316408157349, out-of-sample: 0.4237460494041443 
+iteration 1: RMSE: in-sample: 0.9722610712051392, out-of-sample: 1.092972993850708 
+iteration 1: ACC: in-sample: 0.6251045025677774, out-of-sample: 0.689778534923339 
+iteration 1: Training time: 1047.72s, In-sample imputation time: 1153.95s, Out-of-sample imputation time: 510.12s 
+
+iteration 2, MAE: in-sample: 0.5207770466804504, out-of-sample: 0.42081934213638306 
+iteration 2: RMSE: in-sample: 0.9732071757316589, out-of-sample: 1.0755003690719604 
+iteration 2: ACC: in-sample: 0.6385320161744382, out-of-sample: 0.6965587734241908 
+iteration 2: Training time: 1335.48s, In-sample imputation time: 1155.58s, Out-of-sample imputation time: 511.15s 
+
+iteration 3, MAE: in-sample: 0.5291389226913452, out-of-sample: 0.42692869901657104 
+iteration 3: RMSE: in-sample: 0.985522985458374, out-of-sample: 1.0856473445892334 
+iteration 3: ACC: in-sample: 0.637713057275938, out-of-sample: 0.6946166950596252 
+iteration 3: Training time: 1058.18s, In-sample imputation time: 1155.03s, Out-of-sample imputation time: 509.76s 
+
+iteration 4, MAE: in-sample: 0.5219048857688904, out-of-sample: 0.4181922376155853 
+iteration 4: RMSE: in-sample: 0.9845879673957825, out-of-sample: 1.0817807912826538 
+iteration 4: ACC: in-sample: 0.6441623586016276, out-of-sample: 0.695298126064736 
+iteration 4: Training time: 1356.62s, In-sample imputation time: 1155.23s, Out-of-sample imputation time: 510.66s 
+
+iteration 5, MAE: in-sample: 0.5224493145942688, out-of-sample: 0.4214155375957489 
+iteration 5: RMSE: in-sample: 0.9885095953941345, out-of-sample: 1.0804767608642578 
+iteration 5: ACC: in-sample: 0.6427291805292522, out-of-sample: 0.6961158432708688 
+iteration 5: Training time: 1079.87s, In-sample imputation time: 1155.06s, Out-of-sample imputation time: 511.14s 
+
