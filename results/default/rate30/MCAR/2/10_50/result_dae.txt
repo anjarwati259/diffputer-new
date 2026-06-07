@@ -1,0 +1,24 @@
+============================================================
+Iteration: 5
+Checkpoint dir: ckpt/default/rate30/MCAR/2/10_50
+Loading X_miss from ckpt/default/rate30/MCAR/2/10_50/iter_5.npy
+[INFO] X_miss shape: torch.Size([21000, 256]), range: [-1.3158, 1.3229]
+In-sample imputation: 100%|████████████████████| 10/10 [18:51<00:00, 113.15s/it]
+In-sample imputation time: 1131.95s
+In-sample  → MAE=0.512251  RMSE=1.124505  ACC=0.2858373172103487
+Out-of-sample imputation: 100%|█████████████████| 10/10 [08:16<00:00, 49.61s/it]
+Out-of-sample imputation time: 496.24s
+Out-of-sample → MAE=0.512879  RMSE=1.052346  ACC=0.282861486625303
+
+[TIMING] Iteration 5 — Ringkasan Waktu:
+  - MRmD Discretization         : 0.0000s
+  - Embedding Training           : 152.0484s
+  - Diffusion Training           : 1808.5979s
+  - In-sample Imputation         : 1131.9451s
+  - Out-of-sample Imputation     : 496.2373s
+  - TOTAL (Diskrit→Imputasi)     : 3588.8286s
+Results saved to results/default/rate30/MCAR/2/10_50
+
+============================================================
+[DONE] Semua 6 iterasi selesai.
+============================================================
