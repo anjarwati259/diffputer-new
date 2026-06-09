@@ -1,3 +1,8 @@
 Remasker out sample MAE: 0.502551794052124
 Remasker out sample RMSE: 0.9225252270698547
 Remasker out sample acc: 0.731740498256951
+
+iteration 4, MAE: in-sample: 0.5001068711280823, out-of-sample: 0.4927944839000702 
+iteration 4: RMSE: in-sample: 0.9639226794242859, out-of-sample: 0.9283015131950378 
+iteration 4: ACC: in-sample: 0.6899121688108167, out-of-sample: 0.6847529812606473 
+iteration 4: Training time: 1089.83s, In-sample imputation time: 1154.08s, Out-of-sample imputation time: 512.53s
