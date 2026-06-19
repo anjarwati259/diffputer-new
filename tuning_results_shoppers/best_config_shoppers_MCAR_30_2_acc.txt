@@ -1,0 +1,16 @@
+# Best alpha-beta — Full Pipeline Grid Search Tuning
+# Dataset  : shoppers
+# Mask     : MCAR (ratio=30, split=2)
+# Metric   : acc
+
+alpha = 1.0
+beta  = 0.25
+
+# Hasil imputasi out-of-sample iterasi terakhir:
+ACC  = 0.7571
+MAE  = 0.2659
+RMSE = 0.6820
+
+# Untuk dipakai di dataset_mrmd.py, ubah baris 498-499 menjadi:
+    alpha = 1.0
+    beta  = 0.25
