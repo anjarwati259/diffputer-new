@@ -1,0 +1,112 @@
+============================================================
+Iteration: 0
+Checkpoint dir: ckpt/news/rate30/MCAR/7/10_50
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6499, 31.3958]
+MLPDiffusion(
+  (proj): Linear(in_features=54, out_features=1024, bias=True)
+  (mlp): Sequential(
+    (0): Linear(in_features=1024, out_features=2048, bias=True)
+    (1): SiLU()
+    (2): Linear(in_features=2048, out_features=2048, bias=True)
+    (3): SiLU()
+    (4): Linear(in_features=2048, out_features=1024, bias=True)
+    (5): SiLU()
+    (6): Linear(in_features=1024, out_features=54, bias=True)
+  )
+  (map_noise): PositionalEmbedding()
+  (time_embed): Sequential(
+    (0): Linear(in_features=1024, out_features=1024, bias=True)
+    (1): SiLU()
+    (2): Linear(in_features=1024, out_features=1024, bias=True)
+  )
+)
+Training:  44%|███████         | 4397/10001 [31:30<40:00,  2.33it/s, loss=0.491]Early stopping
+Training:  44%|███████         | 4397/10001 [31:30<40:09,  2.33it/s, loss=0.491]
+Training time: 1890.85s
+In-sample imputation: 100%|████████████████████| 10/10 [23:43<00:00, 142.39s/it]
+In-sample imputation time: 1424.15s
+In-sample  → MAE=0.443231  RMSE=0.760733  ACC=0.4753605769230769
+Out-of-sample imputation: 100%|█████████████████| 10/10 [10:18<00:00, 61.90s/it]
+Out-of-sample imputation time: 619.24s
+Out-of-sample → MAE=0.412926  RMSE=0.715125  ACC=0.4854272778720996
+Results saved to results/news/rate30/MCAR/7/10_50
+
+============================================================
+Iteration: 1
+Checkpoint dir: ckpt/news/rate30/MCAR/7/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/7/10_50/iter_1.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6499, 31.3958]
+Training:  45%|███████▎        | 4533/10001 [32:34<39:19,  2.32it/s, loss=0.487]Early stopping
+Training:  45%|███████▎        | 4533/10001 [32:34<39:18,  2.32it/s, loss=0.487]
+Training time: 1954.89s
+In-sample imputation: 100%|████████████████████| 10/10 [23:41<00:00, 142.10s/it]
+In-sample imputation time: 1421.29s
+In-sample  → MAE=0.374135  RMSE=0.700497  ACC=0.5212740384615384
+Out-of-sample imputation: 100%|█████████████████| 10/10 [10:16<00:00, 61.69s/it]
+Out-of-sample imputation time: 616.98s
+Out-of-sample → MAE=0.352278  RMSE=0.655336  ACC=0.5244765138653085
+Results saved to results/news/rate30/MCAR/7/10_50
+
+============================================================
+Iteration: 2
+Checkpoint dir: ckpt/news/rate30/MCAR/7/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/7/10_50/iter_2.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6499, 31.3958]
+Training:  46%|███████▎        | 4574/10001 [32:45<37:53,  2.39it/s, loss=0.462]Early stopping
+Training:  46%|███████▎        | 4574/10001 [32:45<38:52,  2.33it/s, loss=0.462]
+Training time: 1965.59s
+In-sample imputation: 100%|████████████████████| 10/10 [23:40<00:00, 142.08s/it]
+In-sample imputation time: 1421.21s
+In-sample  → MAE=0.351726  RMSE=0.679758  ACC=0.5283653846153846
+Out-of-sample imputation: 100%|█████████████████| 10/10 [10:18<00:00, 61.88s/it]
+Out-of-sample imputation time: 618.94s
+Out-of-sample → MAE=0.331629  RMSE=0.640250  ACC=0.541312959818902
+Results saved to results/news/rate30/MCAR/7/10_50
+
+============================================================
+Iteration: 3
+Checkpoint dir: ckpt/news/rate30/MCAR/7/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/7/10_50/iter_3.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.7548, 31.3958]
+Training:  41%|██████▌         | 4108/10001 [29:37<41:22,  2.37it/s, loss=0.463]Early stopping
+Training:  41%|██████▌         | 4108/10001 [29:37<42:30,  2.31it/s, loss=0.463]
+Training time: 1777.65s
+In-sample imputation: 100%|████████████████████| 10/10 [23:41<00:00, 142.15s/it]
+In-sample imputation time: 1421.84s
+In-sample  → MAE=0.334122  RMSE=0.665060  ACC=0.5302884615384615
+Out-of-sample imputation: 100%|█████████████████| 10/10 [10:19<00:00, 61.92s/it]
+Out-of-sample imputation time: 619.34s
+Out-of-sample → MAE=0.318654  RMSE=0.633485  ACC=0.5428692699490663
+Results saved to results/news/rate30/MCAR/7/10_50
+
+============================================================
+Iteration: 4
+Checkpoint dir: ckpt/news/rate30/MCAR/7/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/7/10_50/iter_4.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.9247, 31.3958]
+Training:  37%|█████▉          | 3709/10001 [26:35<44:04,  2.38it/s, loss=0.459]Early stopping
+Training:  37%|█████▉          | 3709/10001 [26:36<45:07,  2.32it/s, loss=0.459]
+Training time: 1596.23s
+In-sample imputation: 100%|████████████████████| 10/10 [23:43<00:00, 142.31s/it]
+In-sample imputation time: 1423.40s
+In-sample  → MAE=0.323563  RMSE=0.648688  ACC=0.5364783653846154
+Out-of-sample imputation: 100%|█████████████████| 10/10 [10:18<00:00, 61.84s/it]
+Out-of-sample imputation time: 618.62s
+Out-of-sample → MAE=0.310332  RMSE=0.617677  ACC=0.5452744765138653
+Results saved to results/news/rate30/MCAR/7/10_50
+
+============================================================
+Iteration: 5
+Checkpoint dir: ckpt/news/rate30/MCAR/7/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/7/10_50/iter_5.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.8359, 31.3958]
+Training:  32%|█████▍           | 3235/10001 [23:20<47:40,  2.37it/s, loss=0.46]Early stopping
+Training:  32%|█████▍           | 3235/10001 [23:20<48:49,  2.31it/s, loss=0.46]
+Training time: 1400.85s
+In-sample imputation: 100%|████████████████████| 10/10 [23:42<00:00, 142.20s/it]
+In-sample imputation time: 1422.44s
+In-sample  → MAE=0.318559  RMSE=0.641305  ACC=0.5432091346153847
+Out-of-sample imputation: 100%|█████████████████| 10/10 [10:18<00:00, 61.82s/it]
+Out-of-sample imputation time: 618.30s
+Out-of-sample → MAE=0.307393  RMSE=0.612624  ACC=0.5459818902093945
+Results saved to results/news/rate30/MCAR/7/10_50
