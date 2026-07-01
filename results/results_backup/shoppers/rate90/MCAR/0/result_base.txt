@@ -1,0 +1,80 @@
+Training:  41%|██████▌         | 4095/10001 [09:31<12:57,  7.60it/s, loss=0.107]Early stopping
+Training:  41%|██████▌         | 4095/10001 [09:31<13:44,  7.16it/s, loss=0.107]
+Iteration 0 training time: 573.02 seconds
+In-sample imputation: 100%|█████████████████████| 10/10 [07:22<00:00, 44.24s/it]
+In-sample imputation time: 442.41 seconds
+in-sample 0.6209596 1.0628217 0.5049676184869002
+Out-of-sample imputation: 100%|█████████████████| 10/10 [03:20<00:00, 20.02s/it]
+Out-of-sample imputation time: 200.16 seconds
+out-of-sample 0.6238141 1.038851 0.5048714537104597
+saving results to results/shoppers/rate90/MCAR/0/10_50
+iteration: 1
+ckpt/shoppers/rate90/MCAR/0/10_50
+Loading X_miss from ckpt/shoppers/rate90/MCAR/0/10_50/iter_1.npy
+[INFO] Loaded X_miss shape: torch.Size([8631, 33]), range: [-4.3284, 18.5127]
+Training:  44%|███████         | 4393/10001 [10:20<12:31,  7.46it/s, loss=0.192]Early stopping
+Training:  44%|███████         | 4393/10001 [10:20<13:12,  7.07it/s, loss=0.192]
+Iteration 1 training time: 620.95 seconds
+In-sample imputation: 100%|█████████████████████| 10/10 [07:24<00:00, 44.42s/it]
+In-sample imputation time: 444.19 seconds
+in-sample 0.562069 1.0057626 0.506200323815131
+Out-of-sample imputation: 100%|█████████████████| 10/10 [03:20<00:00, 20.04s/it]
+Out-of-sample imputation time: 200.36 seconds
+out-of-sample 0.5611899 0.9724344 0.506502424996781
+saving results to results/shoppers/rate90/MCAR/0/10_50
+iteration: 2
+ckpt/shoppers/rate90/MCAR/0/10_50
+Loading X_miss from ckpt/shoppers/rate90/MCAR/0/10_50/iter_2.npy
+[INFO] Loaded X_miss shape: torch.Size([8631, 33]), range: [-1.1813, 7.5722]
+Training:  37%|█████▉          | 3696/10001 [08:41<14:00,  7.50it/s, loss=0.185]Early stopping
+Training:  37%|█████▉          | 3696/10001 [08:41<14:49,  7.09it/s, loss=0.185]
+Iteration 2 training time: 521.36 seconds
+In-sample imputation: 100%|█████████████████████| 10/10 [07:23<00:00, 44.30s/it]
+In-sample imputation time: 443.04 seconds
+in-sample 0.55126935 0.9978058 0.5006807477185752
+Out-of-sample imputation: 100%|█████████████████| 10/10 [03:20<00:00, 20.00s/it]
+Out-of-sample imputation time: 200.04 seconds
+out-of-sample 0.5511272 0.9677575 0.5007081849006395
+saving results to results/shoppers/rate90/MCAR/0/10_50
+iteration: 3
+ckpt/shoppers/rate90/MCAR/0/10_50
+Loading X_miss from ckpt/shoppers/rate90/MCAR/0/10_50/iter_3.npy
+[INFO] Loaded X_miss shape: torch.Size([8631, 33]), range: [-4.2463, 7.5722]
+Training:  35%|█████▋          | 3524/10001 [08:13<14:24,  7.49it/s, loss=0.179]Early stopping
+Training:  35%|█████▋          | 3524/10001 [08:14<15:08,  7.13it/s, loss=0.179]
+Iteration 3 training time: 494.06 seconds
+In-sample imputation: 100%|█████████████████████| 10/10 [07:23<00:00, 44.30s/it]
+In-sample imputation time: 443.08 seconds
+in-sample 0.54357344 0.995966 0.50658669414189
+Out-of-sample imputation: 100%|█████████████████| 10/10 [03:20<00:00, 20.04s/it]
+Out-of-sample imputation time: 200.36 seconds
+out-of-sample 0.54170096 0.9616999 0.5067599467788317
+saving results to results/shoppers/rate90/MCAR/0/10_50
+iteration: 4
+ckpt/shoppers/rate90/MCAR/0/10_50
+Loading X_miss from ckpt/shoppers/rate90/MCAR/0/10_50/iter_4.npy
+[INFO] Loaded X_miss shape: torch.Size([8631, 33]), range: [-2.0882, 7.5722]
+Training:  41%|██████▌         | 4125/10001 [09:36<13:52,  7.06it/s, loss=0.181]Early stopping
+Training:  41%|██████▌         | 4125/10001 [09:36<13:41,  7.15it/s, loss=0.181]
+Iteration 4 training time: 576.97 seconds
+In-sample imputation: 100%|█████████████████████| 10/10 [07:23<00:00, 44.38s/it]
+In-sample imputation time: 443.81 seconds
+in-sample 0.5438848 0.99580866 0.5078745952310862
+Out-of-sample imputation: 100%|█████████████████| 10/10 [03:20<00:00, 20.05s/it]
+Out-of-sample imputation time: 200.56 seconds
+out-of-sample 0.5433018 0.9613084 0.5086913601442122
+saving results to results/shoppers/rate90/MCAR/0/10_50
+iteration: 5
+ckpt/shoppers/rate90/MCAR/0/10_50
+Loading X_miss from ckpt/shoppers/rate90/MCAR/0/10_50/iter_5.npy
+[INFO] Loaded X_miss shape: torch.Size([8631, 33]), range: [-1.5454, 7.5722]
+Training:  37%|█████▊          | 3656/10001 [08:35<14:25,  7.33it/s, loss=0.179]Early stopping
+Training:  37%|█████▊          | 3656/10001 [08:36<14:55,  7.08it/s, loss=0.179]
+Iteration 5 training time: 516.11 seconds
+In-sample imputation: 100%|█████████████████████| 10/10 [07:23<00:00, 44.39s/it]
+In-sample imputation time: 443.90 seconds
+in-sample 0.54789156 0.9988637 0.5066050927288784
+Out-of-sample imputation: 100%|█████████████████| 10/10 [03:20<00:00, 20.04s/it]
+Out-of-sample imputation time: 200.45 seconds
+out-of-sample 0.55009705 0.96976125 0.5075754324219923
+saving results to results/shoppers/rate90/MCAR/0/10_50
