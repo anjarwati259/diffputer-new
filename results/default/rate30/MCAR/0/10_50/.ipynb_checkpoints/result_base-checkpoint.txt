@@ -1,0 +1,5 @@
+iteration 0, MAE: in-sample: 0.3387191593647003, out-of-sample: 0.33017870783805847 
+iteration 0: RMSE: in-sample: 0.8103805780410767, out-of-sample: 0.7795339226722717 
+iteration 0: ACC: in-sample: 0.7105960967331354, out-of-sample: 0.7133938472912473 
+iteration 0: Training time: 1433.87s, In-sample imputation time: 1233.59s, Out-of-sample imputation time: 540.26s 
+
