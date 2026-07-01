@@ -1,0 +1,205 @@
+[Dataset][Skenario 3] min-max murni (tanpa sigmoid):
+  label_min=1.00, label_max=690400.00
+  Label range train : [0.0000, 1.0000]
+  Label range test  : [0.0000, 1.2215]
+  Range efektif     : 1.0000 (ideal: 1.0)
+[Embedding] cat_dims=[6, 7], emb_sizes=[4, 5], total_emb_dim=9
+[Embedding][Skenario 3] Melatih SupervisedLearnableEmbeddingModel (regression MSE + reconstruction CE loss) ...
+[Embedding] Epoch 10/1000 - Loss: 0.5004 (Reg: 0.0002, Recon: 0.5003)
+[Embedding] Epoch 20/1000 - Loss: 0.1157 (Reg: 0.0002, Recon: 0.1155)
+[Embedding] Epoch 30/1000 - Loss: 0.0450 (Reg: 0.0002, Recon: 0.0448)
+[Embedding] Epoch 40/1000 - Loss: 0.0234 (Reg: 0.0002, Recon: 0.0232)
+[Embedding] Epoch 50/1000 - Loss: 0.0142 (Reg: 0.0003, Recon: 0.0140)
+[Embedding] Epoch 60/1000 - Loss: 0.0094 (Reg: 0.0002, Recon: 0.0093)
+[Embedding] Epoch 70/1000 - Loss: 0.0067 (Reg: 0.0002, Recon: 0.0065)
+[Embedding] Epoch 80/1000 - Loss: 0.0049 (Reg: 0.0002, Recon: 0.0047)
+[Embedding] Epoch 90/1000 - Loss: 0.0037 (Reg: 0.0002, Recon: 0.0036)
+[Embedding] Epoch 100/1000 - Loss: 0.0029 (Reg: 0.0002, Recon: 0.0027)
+[Embedding] Epoch 110/1000 - Loss: 0.0023 (Reg: 0.0002, Recon: 0.0022)
+[Embedding] Epoch 120/1000 - Loss: 0.0019 (Reg: 0.0002, Recon: 0.0017)
+[Embedding] Epoch 130/1000 - Loss: 0.0015 (Reg: 0.0002, Recon: 0.0014)
+[Embedding] Epoch 140/1000 - Loss: 0.0013 (Reg: 0.0002, Recon: 0.0011)
+[Embedding] Epoch 150/1000 - Loss: 0.0011 (Reg: 0.0002, Recon: 0.0009)
+[Embedding] Epoch 160/1000 - Loss: 0.0009 (Reg: 0.0002, Recon: 0.0008)
+[Embedding] Epoch 170/1000 - Loss: 0.0008 (Reg: 0.0002, Recon: 0.0006)
+[Embedding] Epoch 180/1000 - Loss: 0.0007 (Reg: 0.0002, Recon: 0.0005)
+[Embedding] Epoch 190/1000 - Loss: 0.0006 (Reg: 0.0003, Recon: 0.0004)
+[Embedding] Epoch 200/1000 - Loss: 0.0005 (Reg: 0.0003, Recon: 0.0004)
+[Embedding] Epoch 210/1000 - Loss: 0.0005 (Reg: 0.0002, Recon: 0.0003)
+[Embedding] Epoch 220/1000 - Loss: 0.0004 (Reg: 0.0002, Recon: 0.0003)
+[Embedding] Epoch 230/1000 - Loss: 0.0004 (Reg: 0.0002, Recon: 0.0002)
+[Embedding] Epoch 240/1000 - Loss: 0.0004 (Reg: 0.0003, Recon: 0.0002)
+[Embedding] Epoch 250/1000 - Loss: 0.0003 (Reg: 0.0002, Recon: 0.0002)
+[Embedding] Epoch 260/1000 - Loss: 0.0003 (Reg: 0.0002, Recon: 0.0001)
+[Embedding] Epoch 270/1000 - Loss: 0.0003 (Reg: 0.0002, Recon: 0.0001)
+[Embedding] Epoch 280/1000 - Loss: 0.0003 (Reg: 0.0002, Recon: 0.0001)
+[Embedding] Epoch 290/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0001)
+[Embedding] Epoch 300/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0001)
+[Embedding] Epoch 310/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0001)
+[Embedding] Epoch 320/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 330/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 340/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 350/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 360/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 370/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 380/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 390/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 400/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 410/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 420/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 430/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 440/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 450/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 460/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 470/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 480/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 490/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 500/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 510/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 520/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 530/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 540/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 550/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 560/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 570/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 580/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 590/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 600/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 610/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 620/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 630/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 640/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 650/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 660/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 670/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 680/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 690/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 700/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 710/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 720/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 730/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 740/1000 - Loss: 0.0002 (Reg: 0.0003, Recon: 0.0000)
+[Embedding] Epoch 750/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Epoch 760/1000 - Loss: 0.0002 (Reg: 0.0002, Recon: 0.0000)
+[Embedding] Early stopping triggered at epoch 767
+[Embedding] Best loss: 0.0002
+[Embedding] Loaded best model from epoch 727
+[Embedding] Distribusi embedding (N=2048):
+  mean=-0.0855  std=2.9581  norm_mean=8.8744
+[Embedding] Prediksi label regression (skala min-max):
+  min=0.0020  max=0.0080  mean=0.0037
+[Embedding] Seluruh parameter embedding di-freeze untuk training diffusion.
+[Embedding] Training selesai. Parameter di-freeze untuk diffusion.
+
+============================================================
+Iteration: 0
+Checkpoint dir: ckpt/news/rate30/MCAR/1/10_50
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6111, 36.3336]
+MLPDiffusion(
+  (proj): Linear(in_features=54, out_features=1024, bias=True)
+  (mlp): Sequential(
+    (0): Linear(in_features=1024, out_features=2048, bias=True)
+    (1): SiLU()
+    (2): Linear(in_features=2048, out_features=2048, bias=True)
+    (3): SiLU()
+    (4): Linear(in_features=2048, out_features=1024, bias=True)
+    (5): SiLU()
+    (6): Linear(in_features=1024, out_features=54, bias=True)
+  )
+  (map_noise): PositionalEmbedding()
+  (time_embed): Sequential(
+    (0): Linear(in_features=1024, out_features=1024, bias=True)
+    (1): SiLU()
+    (2): Linear(in_features=1024, out_features=1024, bias=True)
+  )
+)
+Training:  50% 4990/10001 [22:18<23:28,  3.56it/s, loss=0.487]Early stopping
+Training:  50% 4990/10001 [22:19<22:24,  3.73it/s, loss=0.487]
+Training time: 1339.01s
+In-sample imputation: 100% 10/10 [08:54<00:00, 53.43s/it]
+In-sample imputation time: 534.54s
+In-sample  → MAE=0.440280  RMSE=0.740308  ACC=0.47270650474930864
+Out-of-sample imputation: 100% 10/10 [03:58<00:00, 23.81s/it]
+Out-of-sample imputation time: 238.18s
+Out-of-sample → MAE=0.408072  RMSE=0.697501  ACC=0.4652345958168457
+Results saved to results/news/rate30/MCAR/1/10_50
+
+============================================================
+Iteration: 1
+Checkpoint dir: ckpt/news/rate30/MCAR/1/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/1/10_50/iter_1.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6111, 36.3336]
+Training:  50% 4978/10001 [22:14<21:31,  3.89it/s, loss=0.464]Early stopping
+Training:  50% 4978/10001 [22:15<22:27,  3.73it/s, loss=0.464]
+Training time: 1335.01s
+In-sample imputation: 100% 10/10 [08:54<00:00, 53.47s/it]
+In-sample imputation time: 534.92s
+In-sample  → MAE=0.391513  RMSE=0.696378  ACC=0.49669351929782374
+Out-of-sample imputation: 100% 10/10 [03:58<00:00, 23.84s/it]
+Out-of-sample imputation time: 238.48s
+Out-of-sample → MAE=0.358247  RMSE=0.636542  ACC=0.4942057659694743
+Results saved to results/news/rate30/MCAR/1/10_50
+
+============================================================
+Iteration: 2
+Checkpoint dir: ckpt/news/rate30/MCAR/1/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/1/10_50/iter_2.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6111, 36.3336]
+Training:  50% 5018/10001 [22:27<21:19,  3.89it/s, loss=0.473]Early stopping
+Training:  50% 5018/10001 [22:27<22:17,  3.72it/s, loss=0.473]
+Training time: 1347.40s
+In-sample imputation: 100% 10/10 [08:53<00:00, 53.40s/it]
+In-sample imputation time: 534.19s
+In-sample  → MAE=0.356085  RMSE=0.664823  ACC=0.5094384994589395
+Out-of-sample imputation: 100% 10/10 [03:57<00:00, 23.78s/it]
+Out-of-sample imputation time: 237.94s
+Out-of-sample → MAE=0.334603  RMSE=0.614583  ACC=0.502967778405879
+Results saved to results/news/rate30/MCAR/1/10_50
+
+============================================================
+Iteration: 3
+Checkpoint dir: ckpt/news/rate30/MCAR/1/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/1/10_50/iter_3.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6111, 36.3336]
+Training:  46% 4579/10001 [20:35<26:34,  3.40it/s, loss=0.459]Early stopping
+Training:  46% 4579/10001 [20:35<24:23,  3.71it/s, loss=0.459]
+Training time: 1235.85s
+In-sample imputation: 100% 10/10 [08:53<00:00, 53.31s/it]
+In-sample imputation time: 533.34s
+In-sample  → MAE=0.339545  RMSE=0.648799  ACC=0.5138271011181916
+Out-of-sample imputation: 100% 10/10 [03:57<00:00, 23.76s/it]
+Out-of-sample imputation time: 237.74s
+Out-of-sample → MAE=0.320393  RMSE=0.601909  ACC=0.5104578858111928
+Results saved to results/news/rate30/MCAR/1/10_50
+
+============================================================
+Iteration: 4
+Checkpoint dir: ckpt/news/rate30/MCAR/1/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/1/10_50/iter_4.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6111, 36.3336]
+Training:  39% 3851/10001 [17:16<30:18,  3.38it/s, loss=0.456]Early stopping
+Training:  39% 3851/10001 [17:17<27:36,  3.71it/s, loss=0.456]
+Training time: 1037.21s
+In-sample imputation: 100% 10/10 [08:53<00:00, 53.33s/it]
+In-sample imputation time: 533.47s
+In-sample  → MAE=0.328356  RMSE=0.636699  ACC=0.5142479259348323
+Out-of-sample imputation: 100% 10/10 [03:57<00:00, 23.78s/it]
+Out-of-sample imputation time: 237.89s
+Out-of-sample → MAE=0.313673  RMSE=0.592459  ACC=0.5115884680610514
+Results saved to results/news/rate30/MCAR/1/10_50
+
+============================================================
+Iteration: 5
+Checkpoint dir: ckpt/news/rate30/MCAR/1/10_50
+Loading X_miss from ckpt/news/rate30/MCAR/1/10_50/iter_5.npy
+[INFO] X_miss shape: torch.Size([27750, 54]), range: [-4.6111, 36.3336]
+Training:  33% 3305/10001 [14:53<32:54,  3.39it/s, loss=0.461]Early stopping
+Training:  33% 3305/10001 [14:53<30:10,  3.70it/s, loss=0.461]
+Training time: 893.59s
+In-sample imputation: 100% 10/10 [08:54<00:00, 53.42s/it]
+In-sample imputation time: 534.38s
+In-sample  → MAE=0.320933  RMSE=0.626996  ACC=0.5096188529517856
+Out-of-sample imputation: 100% 10/10 [03:58<00:00, 23.81s/it]
+Out-of-sample imputation time: 238.21s
+Out-of-sample → MAE=0.309574  RMSE=0.598434  ACC=0.5077727529677784
+Results saved to results/news/rate30/MCAR/1/10_50
