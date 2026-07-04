@@ -1,0 +1,16 @@
+# Best alpha-beta — Full Pipeline Grid Search Tuning (Skenario 3 / reg_s3)
+# Dataset  : bike
+# Mask     : MCAR (ratio=30, split=0)
+# Metric   : acc
+
+alpha = 1.0
+beta  = 0.25
+
+# Hasil imputasi out-of-sample iterasi terakhir:
+ACC  = 0.7028
+MAE  = 0.3789
+RMSE = 0.6048
+
+# Untuk dipakai di dataset_reg_s3.py, ubah baris 317-318 (train_supervised_embedding_model) menjadi:
+    alpha = 1.0
+    beta  = 0.25
