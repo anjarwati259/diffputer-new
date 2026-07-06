@@ -18,3 +18,13 @@ iteration 3, RMSE: in-sample=0.643043, out-of-sample=0.628577
 iteration 3, ACC: in-sample=0.4905626674605537, out-of-sample=0.4833662249788554
 iteration 3, Training time=1637.07s, In-sample imputation=950.44s, Out-of-sample imputation=535.46s
 
+iteration 4, MAE: in-sample=0.326057, out-of-sample=0.312992
+iteration 4, RMSE: in-sample=0.633149, out-of-sample=0.615969
+iteration 4, ACC: in-sample=0.4878237570705567, out-of-sample=0.4906963631237666
+iteration 4, Training time=1314.74s, In-sample imputation=957.37s, Out-of-sample imputation=535.44s
+
+iteration 5, MAE: in-sample=0.317553, out-of-sample=0.306585
+iteration 5, RMSE: in-sample=0.622990, out-of-sample=0.621214
+iteration 5, ACC: in-sample=0.4905031259303364, out-of-sample=0.48548068790527205
+iteration 5, Training time=1417.52s, In-sample imputation=962.66s, Out-of-sample imputation=535.64s
+
