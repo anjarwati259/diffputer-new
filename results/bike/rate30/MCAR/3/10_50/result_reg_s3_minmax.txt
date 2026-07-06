@@ -1,0 +1,30 @@
+iteration 0, MAE: in-sample=0.562923, out-of-sample=0.497069
+iteration 0, RMSE: in-sample=0.749654, out-of-sample=0.704078
+iteration 0, ACC: in-sample=0.6494957754156446, out-of-sample=0.6561731821425739
+iteration 0, Training time=727.94s, In-sample imputation=613.69s, Out-of-sample imputation=270.74s
+
+iteration 1, MAE: in-sample=0.487462, out-of-sample=0.442738
+iteration 1, RMSE: in-sample=0.681889, out-of-sample=0.651592
+iteration 1, ACC: in-sample=0.6988961569910057, out-of-sample=0.7082705574498454
+iteration 1, Training time=782.10s, In-sample imputation=614.28s, Out-of-sample imputation=270.59s
+
+iteration 2, MAE: in-sample=0.452319, out-of-sample=0.420332
+iteration 2, RMSE: in-sample=0.658558, out-of-sample=0.636146
+iteration 2, ACC: in-sample=0.7163736713000818, out-of-sample=0.72476409483784
+iteration 2, Training time=656.86s, In-sample imputation=615.30s, Out-of-sample imputation=270.01s
+
+iteration 3, MAE: in-sample=0.421755, out-of-sample=0.402940
+iteration 3, RMSE: in-sample=0.635078, out-of-sample=0.625498
+iteration 3, ACC: in-sample=0.7252998092123194, out-of-sample=0.7333280469431449
+iteration 3, Training time=642.28s, In-sample imputation=614.55s, Out-of-sample imputation=271.92s
+
+iteration 4, MAE: in-sample=0.404923, out-of-sample=0.389576
+iteration 4, RMSE: in-sample=0.626028, out-of-sample=0.620382
+iteration 4, ACC: in-sample=0.7308190242572908, out-of-sample=0.7325350884148759
+iteration 4, Training time=526.69s, In-sample imputation=613.82s, Out-of-sample imputation=271.05s
+
+iteration 5, MAE: in-sample=0.392541, out-of-sample=0.382254
+iteration 5, RMSE: in-sample=0.613836, out-of-sample=0.610531
+iteration 5, ACC: in-sample=0.7317729626601254, out-of-sample=0.7380857981127587
+iteration 5, Training time=618.16s, In-sample imputation=613.83s, Out-of-sample imputation=271.43s
+
