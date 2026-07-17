@@ -1,0 +1,3 @@
+hyperimpute out sample MAE: 0.3640245795249939
+hyperimpute out sample RMSE: 0.8328039050102234
+hyperimpute out sample acc: 0.6784986059672923
